@@ -237,7 +237,7 @@
     <h3 class="text-2xl font-semibold mb-6">Projects</h3>
 
     <!-- A Fast On-Disk Key-Value Store -->
-    <div class="mb-10">
+    <!-- <div class="mb-10">
       <h4 class="font-semibold text-gray-900 text-lg mb-2">A Fast On-Disk Key-Value Store (Ongoing Research)</h4>
       <p class="text-gray-700 mb-3">
         A research-driven project focused on designing a novel on-disk key-value store optimized for modern hardware and data-intensive workloads. 
@@ -252,7 +252,7 @@
       <p class="text-gray-600 text-sm mt-3 italic">
         This ongoing research contributes to advancing the performance boundaries of storage systems for large-scale data management.
       </p>
-    </div>
+    </div> -->
 
     <!-- Group Farness Estimation -->
     <div class="mb-10">
@@ -278,16 +278,21 @@
     <div class="mb-10">
       <h4 class="font-semibold text-gray-900 text-lg mb-2">Mimix Data Transformer</h4>
       <p class="text-gray-700 mb-3">
-        A modular Java library for efficient and extensible processing of Mimix event streams — enabling transformation, mapping, and post-processing workflows for relational database integration.
+        A modular Java library designed for efficient and extensible processing of <em>Mimix</em> event streams — enabling transformation, mapping, and post-processing workflows for relational database integration and streaming pipelines such as <strong>AWS Kinesis</strong>.  
+        The framework supports selective event filtering, JSON-based mapping configurations, and user-defined hooks for custom logic, all packaged as a Maven-compatible artifact for seamless inclusion in enterprise systems.
       </p>
       <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Fine-grained event filtering and JSON-based mapping configuration.</li>
-        <li>Supports custom transformation and post-processing hooks.</li>
-        <li>Pluggable architecture for extending filters, transformers, and writers.</li>
-        <li>Distributed as a Maven-compatible artifact for easy integration.</li>
+        <li>Implements fine-grained event filtering and JSON-based mapping for flexible and high-throughput data ingestion.</li>
+        <li>Supports custom transformation logic and post-processing hooks (e.g., logging, notifications, and audit pipelines) for workflow extensibility.</li>
+        <li>Integrates with <strong>AWS Kinesis</strong> for real-time event streaming and replication of Mimix event data to downstream systems.</li>
+        <li>Provides a pluggable architecture for extending filters, transformers, and database writers.</li>
+        <li>Distributed as a Maven-compatible Java library enabling rapid adoption and integration across data engineering environments.</li>
+        <li>Demonstrated via a short walkthrough video: 
+          <a href="https://www.youtube.com/watch?v=LIO30A3-igA" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>.
+        </li>
       </ul>
       <p class="text-gray-600 text-sm mt-3 italic">
-        Use cases include real-time replication of Mimix event streams, data pipeline construction, and integration with modern data architectures.
+        Ideal for real-time replication of Mimix event streams, integration with streaming systems like AWS Kinesis, and the construction of scalable event-to-table data pipelines for modern data architectures.
       </p>
     </div>
 
