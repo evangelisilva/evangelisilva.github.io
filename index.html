@@ -171,68 +171,73 @@
 <section id="projects" class="bg-white py-12 shadow-sm">
   <div class="max-w-4xl mx-auto px-4">
     <h3 class="text-2xl font-semibold mb-6">Projects</h3>
-    <div class="flex flex-col gap-6">
-      
-      <!-- A Fast On-Disk Key-Value Store -->
-      <div class="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-        <h4 class="font-bold mb-2">A Fast On-Disk Key-Value Store (Ongoing Research)</h4>
-        <p class="text-gray-700 text-sm mb-2">
-          A research-driven project focused on designing a novel on-disk key-value store optimized for modern hardware and data-intensive workloads. 
-          It explores new indexing and storage techniques to achieve faster lookups and updates beyond conventional structures like B+-trees, LSM-trees, and hash-based stores.
-        </p>
-        <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
-          <li>Explores innovative on-disk indexing strategies for high-performance key-value access.</li>
-          <li>Balances throughput, latency, and space efficiency under diverse workloads.</li>
-          <li>Reduces write amplification and improves data locality through hybrid designs.</li>
-          <li>Includes empirical evaluation against state-of-the-art key-value store architectures.</li>
-        </ul>
-        <p class="text-gray-600 text-xs mt-3 italic">
-          This ongoing research contributes to advancing the performance boundaries of storage systems for large-scale data management.
-        </p>
-      </div>
 
-      <!-- Mimix Data Transformer -->
-      <div class="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-        <h4 class="font-bold mb-2">Mimix Data Transformer</h4>
-        <p class="text-gray-700 text-sm mb-2">
-          A modular Java library for efficient and extensible processing of Mimix event streams — enabling transformation, mapping, and post-processing workflows for relational database integration.
-        </p>
-        <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
-          <li>Fine-grained event filtering and JSON-based mapping configuration.</li>
-          <li>Supports custom transformation and post-processing hooks.</li>
-          <li>Pluggable architecture for extending filters, transformers, and writers.</li>
-          <li>Distributed as a Maven-compatible artifact for easy integration.</li>
-        </ul>
-        <p class="text-gray-600 text-xs mt-3 italic">
-          Use cases include real-time replication of Mimix event streams, data pipeline construction, and integration with modern data architectures.
-        </p>
-      </div>
+    <!-- A Fast On-Disk Key-Value Store -->
+    <div class="mb-8">
+      <h4 class="font-bold text-gray-900 mb-2">A Fast On-Disk Key-Value Store (Ongoing Research)</h4>
+      <p class="text-gray-700 text-sm mb-2">
+        A research-driven project focused on designing a novel on-disk key-value store optimized for modern hardware and data-intensive workloads. 
+        It explores new indexing and storage techniques to achieve faster lookups and updates beyond conventional structures like B+-trees, LSM-trees, and hash-based stores.
+      </p>
+      <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
+        <li>Explores innovative on-disk indexing strategies for high-performance key-value access.</li>
+        <li>Balances throughput, latency, and space efficiency under diverse workloads.</li>
+        <li>Reduces write amplification and improves data locality through hybrid designs.</li>
+        <li>Includes empirical evaluation against state-of-the-art key-value store architectures.</li>
+      </ul>
+      <p class="text-gray-600 text-xs mt-3 italic">
+        This ongoing research contributes to advancing the performance boundaries of storage systems for large-scale data management.
+      </p>
+    </div>
 
-      <!-- Group Farness Estimation -->
-      <div class="bg-gray-100 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200">
-        <h4 class="font-bold mb-2">An Experimental Evaluation and Investigation of Group Farness Estimation Techniques</h4>
-        <p class="text-gray-700 text-sm mb-2">
-          A comprehensive experimental study of <em>group farness estimation</em> methods in large-scale graphs. 
-          While numerous algorithms exist for single-source farness (closeness) estimation, group-level estimation remains underexplored 
-          despite its significance in applications such as community detection, influence maximization, and network optimization.
-        </p>
-        <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
-          <li>Reviewed and analyzed existing single-source farness estimation algorithms and their applicability to group-level estimation.</li>
-          <li>Extended sampling-based and cardinality estimation (CE) techniques—including KMV and Cohen’s HIP permutation estimator—for scalable group farness estimation.</li>
-          <li>Investigated trade-offs between accuracy, memory overhead, and runtime efficiency across various sampling strategies.</li>
-          <li>Conducted controlled experiments comparing <em>Cohen’s HIP-based estimator</em> and <em>KMV-basic</em>, 
-              confirming Cohen’s modest yet consistent accuracy improvements (≈2–5%) and scalability advantages for large graphs.</li>
-        </ul>
-        <p class="text-gray-600 text-xs mt-3 italic">
-          This completed work offers quantitative insights into how sampling and cardinality estimation choices influence 
-          the accuracy and scalability of group farness estimation in large graph analytics.
-        </p>
-      </div>
+    <!-- Mimix Data Transformer -->
+    <div class="mb-8">
+      <h4 class="font-bold text-gray-900 mb-2">Mimix Data Transformer</h4>
+      <p class="text-gray-700 text-sm mb-2">
+        A modular Java library for efficient and extensible processing of Mimix event streams — enabling transformation, mapping, and post-processing workflows for relational database integration.
+      </p>
+      <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
+        <li>Fine-grained event filtering and JSON-based mapping configuration.</li>
+        <li>Supports custom transformation and post-processing hooks.</li>
+        <li>Pluggable architecture for extending filters, transformers, and writers.</li>
+        <li>Distributed as a Maven-compatible artifact for easy integration.</li>
+      </ul>
+      <p class="text-gray-600 text-xs mt-3 italic">
+        Use cases include real-time replication of Mimix event streams, data pipeline construction, and integration with modern data architectures.
+      </p>
+    </div>
 
+    <!-- Group Farness Estimation -->
+    <div class="mb-8">
+      <h4 class="font-bold text-gray-900 mb-2">An Experimental Evaluation and Investigation of Group Farness Estimation Techniques</h4>
+      <p class="text-gray-700 text-sm mb-2">
+        A comprehensive experimental study of <em>group farness estimation</em> methods in large-scale graphs. 
+        While numerous algorithms exist for single-source farness (closeness) estimation, group-level estimation remains underexplored 
+        despite its significance in applications such as community detection, influence maximization, and network optimization.
+      </p>
+      <ul class="list-disc ml-5 text-gray-600 text-sm space-y-1">
+        <li>Reviewed and analyzed existing single-source farness estimation algorithms and their applicability to group-level estimation.</li>
+        <li>Extended sampling-based and cardinality estimation (CE) techniques—including KMV and Cohen’s HIP permutation estimator—for scalable group farness estimation.</li>
+        <li>Investigated trade-offs between accuracy, memory overhead, and runtime efficiency across various sampling strategies.</li>
+        <li>Conducted controlled experiments comparing <em>Cohen’s HIP-based estimator</em> and <em>KMV-basic</em>, 
+            confirming Cohen’s modest yet consistent accuracy improvements (≈2–5%) and scalability advantages for large graphs.</li>
+      </ul>
+      <p class="text-gray-600 text-xs mt-3 italic">
+        This completed work offers quantitative insights into how sampling and cardinality estimation choices influence 
+        the accuracy and scalability of group farness estimation in large graph analytics.
+      </p>
+    </div>
 
+    <!-- AI4Good Dashboard -->
+    <div>
+      <h4 class="font-bold text-gray-900 mb-2">AI4Good Dashboard</h4>
+      <p class="text-gray-700 text-sm">
+        A data-driven web app for monitoring social impact of AI projects.
+      </p>
     </div>
   </div>
 </section>
+
 
 
   <!-- FOOTER -->
