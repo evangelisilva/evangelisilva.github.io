@@ -28,10 +28,11 @@
     <!-- Desktop Nav -->
     <nav class="hidden md:flex space-x-4 text-sm">
       <a href="#about" class="hover:text-blue-600">About</a>
-      <a href="#education" class="hover:text-blue-600">Education</a>
-      <a href="#research" class="hover:text-blue-600">Experience</a>
       <a href="#publications" class="hover:text-blue-600">Publications</a>
-      <a href="#projects" class="hover:text-blue-600">Projects</a>
+      <a href="#research" class="hover:text-blue-600">Research</a>
+      <a href="#teaching" class="hover:text-blue-600">Teaching</a>
+      <a href="#service" class="hover:text-blue-600">Service & Awards</a>
+      <a href="#industry" class="hover:text-blue-600">Industry</a>
     </nav>
 
     <!-- Mobile Menu Button -->
@@ -46,10 +47,11 @@
   <div id="menu" class="hidden md:hidden bg-white border-t border-gray-200">
     <nav class="flex flex-col space-y-2 p-4 text-sm">
       <a href="#about" class="hover:text-blue-600">About</a>
-      <a href="#education" class="hover:text-blue-600">Education</a>
-      <a href="#research" class="hover:text-blue-600">Experience</a>
       <a href="#publications" class="hover:text-blue-600">Publications</a>
-      <a href="#projects" class="hover:text-blue-600">Projects</a>
+      <a href="#research" class="hover:text-blue-600">Research</a>
+      <a href="#teaching" class="hover:text-blue-600">Teaching</a>
+      <a href="#service" class="hover:text-blue-600">Service & Awards</a>
+      <a href="#industry" class="hover:text-blue-600">Industry</a>
     </nav>
   </div>
 </header>
@@ -70,8 +72,8 @@
   <p class="text-lg text-gray-600 mb-1">Ph.D. Student in Computer Science</p>
   <p class="text-gray-600 mb-4">
     Department of Computer Science,<br/>
-    College of Nanotechnology, Science, and Engineering,<br/>
-    University at Albany, SUNY
+    University at Albany, SUNY<br/>
+    Albany, NY 12222
   </p>
 
   <!-- Contact with image icons -->
@@ -103,19 +105,15 @@
   <div class="max-w-4xl mx-auto px-4">
     <h3 class="text-2xl font-semibold mb-4">About Me</h3>
     <p class="text-gray-700 leading-relaxed">
-      I’m a Ph.D. student in Computer Science at the University at Albany, SUNY, advised by 
+      I am a Ph.D. Student in Computer Science at the University at Albany, SUNY, advised by 
       <a href="https://www.cs.albany.edu/~jhh/Site/Welcome.html" target="_blank" class="text-blue-600 hover:underline">Prof. Jeong-Hyon Hwang</a>. 
-      My research explores the design and optimization of on-disk and in-memory key-value stores — building scalable, high-performance data infrastructures for next-generation storage systems. 
-      My work bridges data management theory and systems engineering, with ongoing interests in storage architectures, indexing strategies, and real-time data processing frameworks.
+      My research focuses on <strong>database and storage systems</strong>, particularly on the design and optimization of on-disk index structures and memory-efficient caching. I aim to build scalable, high-performance data infrastructures that support next-generation data-intensive workloads.
       <br /><br />
-      Previously, I was a Senior Software Engineer at Sysco LABS, where I developed and optimized large-scale microservice architectures, data pipelines, and synchronization frameworks for enterprise applications. 
-      These experiences shaped my drive to build systems that are not only efficient but also resilient, observable, and impactful in real-world environments.
-      <br /><br />
-      I’m passionate about data-intensive systems, storage research, and building tools that make data faster, smarter, and more accessible.
+      Prior to joining UAlbany, I worked as a Senior Software Engineer at Sysco LABS, where I developed and scaled distributed microservice systems and optimized data architectures.
     </p>
     <p class="mt-4">
-      <a href="https://evangelisilva.github.io/Evangeli Silva - Resume.pdf" target="_blank" class="text-blue-600 hover:underline font-medium">
-        View My Resume →
+      <a href="evangeli-silva-cv.pdf" target="_blank" class="text-blue-600 hover:underline font-medium">
+        Curriculum Vitae →
       </a>
     </p>
   </div>
@@ -128,55 +126,179 @@
       <div class="space-y-4">
         <div>
           <h4 class="font-bold text-gray-900">Ph.D. in Computer Science</h4>
-          <p class="text-gray-700">University at Albany, SUNY (2022 - Present)</p>
+          <p class="text-gray-700">University at Albany, SUNY (Jan 2022 - Present)<br/>Advisor: Prof. Jeong-Hyon Hwang<br/>Research Focus: Database and Storage Systems</p>
         </div>
         <div>
-          <h4 class="font-bold text-gray-900">B.Sc. (Honours) in Information Technology and Management</h4>
-          <p class="text-gray-700">University of Moratuwa, Sri Lanka (2014 - 2019)</p>
+          <h4 class="font-bold text-gray-900">B.Sc. (Hons.) in Information Technology and Management</h4>
+          <p class="text-gray-700">University of Moratuwa, Sri Lanka (Jan 2014 - Mar 2019)<br/>GPA: 3.50/4.20 | Advisor: Dr. Supunmali Ahangama</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- EXPERIENCE -->
-<section id="research" class="bg-white py-12 shadow-sm">
+<!-- PUBLICATIONS -->
+<section id="publications" class="bg-white py-12 shadow-sm">
   <div class="max-w-4xl mx-auto px-4">
-    <h3 class="text-2xl font-semibold mb-6">Professional & Teaching Experience</h3>
+    <h3 class="text-2xl font-semibold mb-6">Publications</h3>
+    <div class="mb-6">
+      <p class="text-gray-700 leading-relaxed mb-1">
+        <span class="font-semibold">E. Silva</span>, M. Nandathilaka, S. Dalugoda, T. Amarasinghe, 
+        S. Ahangama, and G. T. Weerasuriya. 
+        <em>“Machine Learning-Based Automated Tool to Detect Sinhala Hate Speech in Images.”</em> 
+        <span class="italic">Proceedings of the 6th International Conference on Information Technology Research (ICITR)</span>, 
+        IEEE, 2021.
+      </p>
+      <p class="text-blue-600 font-semibold text-sm">🏆 Best Paper Award, AI & ML Track.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- RESEARCH EXPERIENCE -->
+<section id="research" class="py-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold mb-6">Research Experience</h3>
     <div class="space-y-8">
 
-      <!-- Graduate Assistant -->
+      <!-- Doctoral Research -->
       <div>
-        <h4 class="font-bold text-gray-900">Graduate Assistant</h4>
+        <h4 class="font-bold text-gray-900">Doctoral Research</h4>
           <div class="flex flex-wrap items-center text-gray-700 italic">
             <a href="https://www.albany.edu" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">
               University at Albany, SUNY
             </a>
             <span class="ml-2 text-gray-700">(Jan 2022 – Present)</span>
           </div>
-        <ul class="list-disc ml-6 text-gray-700 mt-2 space-y-1">
-          <li>Conducts research in databases and distributed systems, focusing on the design and optimization of high-throughput on-disk and in-memory key-value stores.</li>
-          <li>Collaborates with faculty and peers on systems-level experiments, distributed benchmarking, and academic writing.</li>
-          <li>Assists in teaching undergraduate and graduate computer science courses, supporting labs and assessments.</li>
+        
+        <p class="text-gray-900 font-semibold mt-3 text-sm uppercase tracking-wide">On-Disk Index Design and Evaluation</p>
+        <ul class="list-disc ml-6 text-gray-700 mt-1 space-y-1">
+          <li>Investigating an alternative on-disk indexing approach intended to reduce page-management overhead and improve memory utilization for key-value storage.</li>
+          <li>Developed a benchmarking framework with common index interfaces, workload generators, and performance measurements to support fair and reproducible comparisons.</li>
+          <li>Conducted preliminary evaluations of B+-trees, LSM-trees, and Bf-Tree across dataset scales, key/value configurations, memory budgets, insertion orders, access patterns, workload types, and storage media.</li>
+          <li>Analyzing operation latency and storage I/O behavior to characterize performance trade-offs; obtained preliminary results indicating potential benefits of the proposed approach.</li>
+          <li>Preparing a benchmark manuscript describing the framework and preliminary findings.</li>
+        </ul>
+        
+        <p class="text-gray-900 font-semibold mt-5 text-sm uppercase tracking-wide">An Experimental Evaluation of Group Farness Estimation Techniques</p>
+        <ul class="list-disc ml-6 text-gray-700 mt-1 space-y-1">
+          <li>Conducted an empirical study of scalable group farness estimation in large graphs, extending single-source algorithms to multi-node group settings.</li>
+          <li>Evaluated sampling and cardinality estimation methods, including KMV and Cohen's HIP, to analyze accuracy, memory consumption, and runtime trade-offs.</li>
         </ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEACHING EXPERIENCE -->
+<section id="teaching" class="bg-white py-12 shadow-sm">
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold mb-6">Teaching Experience</h3>
+    <div class="space-y-4">
+      <div>
+        <h4 class="font-bold text-gray-900">Graduate Teaching Assistant</h4>
+        <div class="flex flex-wrap items-center text-gray-700 italic">
+          University at Albany, SUNY
+          <span class="ml-2 text-gray-700">(Jan 2022 – Present)</span>
+        </div>
+        <ul class="list-disc ml-6 text-gray-700 mt-2 space-y-1">
+          <li>Conduct laboratory sessions and lead discussions to reinforce course concepts and guide students through programming and problem-solving exercises.</li>
+          <li>Develop quizzes and grading rubrics to assess student understanding and support consistent evaluation.</li>
+          <li>Serve as Head Teaching Assistant for selected courses, coordinating teaching assistants and graders and overseeing grading activities.</li>
+          <li>Deliver lectures and conduct classes when covering for course instructors.</li>
+          <li>Hold office hours and provide individual support with course material, assignments, and debugging.</li>
+          <li>Assess student work and provide constructive feedback to strengthen conceptual understanding and technical skills.</li>
+          <li>Automated lab and project assignment grading workflows to streamline assessment processes and increase evaluation efficiency.</li>
+          <li>Engineered a secure, quiz-based attendance-tracking system that restricted outside access, ensuring only physically present students could verify participation.</li>
+        </ul>
+
+        <h5 class="font-semibold text-gray-900 mt-6 mb-2">Courses Supported</h5>
+        <div class="overflow-x-auto">
+          <table class="min-w-full text-sm text-left text-gray-700 border-collapse">
+            <thead class="text-xs text-gray-900 uppercase bg-gray-100 border-b">
+              <tr>
+                <th scope="col" class="px-4 py-2 font-semibold">Course</th>
+                <th scope="col" class="px-4 py-2 font-semibold">Title</th>
+                <th scope="col" class="px-4 py-2 font-semibold">Semesters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="bg-white border-b">
+                <td class="px-4 py-2 font-medium">CSI 213</td>
+                <td class="px-4 py-2">Data Structures</td>
+                <td class="px-4 py-2">Fall '22, '23, '26; Spring '24, '25, '26</td>
+              </tr>
+              <tr class="bg-gray-50 border-b">
+                <td class="px-4 py-2 font-medium">CSI 410</td>
+                <td class="px-4 py-2">Database Systems</td>
+                <td class="px-4 py-2">Spring '22, '26; Fall '22, '24, '25</td>
+              </tr>
+              <tr class="bg-white border-b">
+                <td class="px-4 py-2 font-medium">CSI 404</td>
+                <td class="px-4 py-2">Computer Architecture and Organization</td>
+                <td class="px-4 py-2">Spring '22; Fall '26</td>
+              </tr>
+              <tr class="bg-gray-50 border-b">
+                <td class="px-4 py-2 font-medium">CSI 508</td>
+                <td class="px-4 py-2">Database Systems I (graduate)</td>
+                <td class="px-4 py-2">Spring '22</td>
+              </tr>
+              <tr class="bg-white border-b">
+                <td class="px-4 py-2 font-medium">CSI 210</td>
+                <td class="px-4 py-2">Discrete Structures</td>
+                <td class="px-4 py-2">Fall '24</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACADEMIC SERVICE & AWARDS -->
+<section id="service" class="py-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold mb-6">Service & Honors</h3>
+
+    <div class="mb-6">
+      <h4 class="font-bold text-gray-900 mb-2">Academic Service and Outreach</h4>
+      <ul class="list-disc ml-6 text-gray-700 space-y-1">
+        <li><span class="font-semibold">Conference Paper Reviewer</span>, 36th International Conference on Scientific and Statistical Database Management (SSDBM), 2024.</li>
+        <li><span class="font-semibold">Database Session Tutor</span>, Undergraduate Women Coding Club Bootcamp for IEEE Student Chapter Hackathon Preparation, University at Albany.</li>
+        <li><span class="font-semibold">Technical Coordinator and Article Reviewer</span>, fit2school, Faculty of Information Technology outreach project, University of Moratuwa.</li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h4 class="font-bold text-gray-900 mb-2">Honors and Awards</h4>
+      <ul class="list-disc ml-6 text-gray-700 space-y-1">
+        <li><span class="font-semibold">Karen R. Hitchcock New Frontiers Fund Award</span>, Initiatives for Women, University at Albany, 2026. ($1,000)</li>
+        <li><span class="font-semibold">Customer First Value Award</span>, Sysco LABS, 2020.</li>
+        <li><span class="font-semibold">Dean's List Recognition</span>, University of Moratuwa, Level 2, Semester 2.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- INDUSTRY EXPERIENCE & SOFTWARE -->
+<section id="industry" class="bg-white py-12 shadow-sm">
+  <div class="max-w-4xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold mb-6">Industry Experience</h3>
+    <div class="space-y-8">
 
       <!-- Senior Software Engineer -->
       <div>
         <h4 class="font-bold text-gray-900">Senior Software Engineer</h4>
         <div class="flex flex-wrap items-center text-gray-700 italic">
           <a href="https://syscolabs.lk" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">
-            Sysco LABS (Pvt.) Ltd, Colombo, Sri Lanka
+            Sysco LABS, Sri Lanka
           </a>
           <span class="ml-2 text-gray-700">(Nov 2020 – Dec 2021)</span>
         </div>
-        <p class="text-gray-600 text-sm mt-1">
-          <span class="font-semibold">Skills & Technologies:</span> Java, Python, Spring Boot, PostgreSQL, MongoDB, AWS, Docker, Jenkins, Concourse CI, Datadog, Kibana, Elasticsearch, Git, Linux
-        </p>
         <ul class="list-disc ml-6 text-gray-700 mt-2 space-y-1">
-            <li>Designed and scaled microservice architectures powering high-volume enterprise systems at Sysco, a Fortune 100 food distributor.</li>
-            <li>Engineered RESTful APIs and distributed data pipelines serving tens of thousands of concurrent users across ordering, B2B, and analytics platforms.</li>
-            <li>Reduced query latency by 35% through optimized indexing strategies and query restructuring in high-traffic services.</li>
-            <li>Implemented near real-time data synchronization from monolithic to microservice databases using Change Data Capture (CDC) and data stream mechanisms.</li>
+            <li>Designed and scaled distributed microservice systems supporting Sysco’s digital platforms.</li>
+            <li>Improved query performance through indexing and caching optimizations, reducing average latency from 400ms to 100ms.</li>
+            <li>Implemented real-time data synchronization between legacy and microservice databases using Change Data Capture (CDC) and AWS Kinesis.</li>
+            <li>Developed RESTful APIs and data pipelines across regional clusters; supported reliability through monitoring and distributed tracing.</li>
         </ul>
       </div>
 
@@ -185,39 +307,59 @@
         <h4 class="font-bold text-gray-900">Software Engineer</h4>
         <div class="flex flex-wrap items-center text-gray-700 italic">
           <a href="https://syscolabs.lk" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">
-            Sysco LABS (Pvt.) Ltd, Colombo, Sri Lanka
+            Sysco LABS, Sri Lanka
           </a>
           <span class="ml-2 text-gray-700">(Mar 2019 – Nov 2020)</span>
         </div>
-        <p class="text-gray-600 text-sm mt-1">
-          <span class="font-semibold">Skills & Technologies:</span> Java, Spring Boot, PostgreSQL, AWS, Docker, Jenkins, Concourse CI, Datadog, Kibana, Elasticsearch, Git
-        </p>
         <ul class="list-disc ml-6 text-gray-700 mt-2 space-y-1">
-          <li>Developed and maintained RESTful APIs and backend services for high-availability enterprise systems within Sysco’s global digital platform.</li>
-          <li>Implemented CI/CD pipelines and automated deployment workflows using Jenkins and Concourse, reducing release friction and improving reliability.</li>
-          <li>Built service-level observability pipelines with Datadog and Kibana for proactive performance monitoring and alerting.</li>
-          <li>Enhanced data traceability across microservices through audit logging and event-tracking mechanisms, improving debugging and compliance visibility.</li>
-          <li>Collaborated with globally distributed teams on system design, code reviews, and production reliability initiatives.</li>
+          <li>Developed backend services and RESTful APIs for Sysco’s global digital platform.</li>
+          <li>Implemented CI/CD pipelines with Jenkins and Concourse and enhanced service observability using Datadog, Kibana, and Amazon CloudWatch.</li>
+          <li>Optimized microservice data flows and collaborated with teams in the United States and Canada to maintain and scale production systems.</li>
         </ul>
       </div>
 
      <!-- Engineering Intern -->
       <div>
-        <h4 class="font-bold text-gray-900">Engineering Intern (Data Anaytics)</h4>
+        <h4 class="font-bold text-gray-900">Engineering Intern (Data Analytics)</h4>
         <div class="flex flex-wrap items-center text-gray-700 italic">
           <a href="https://www.vesess.com" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600">
-            Vesess (Pvt.) Ltd, Colombo, Sri Lanka
+            Vesess, Sri Lanka
           </a>
           <span class="ml-2 text-gray-700">(Oct 2017 – Mar 2018)</span>
         </div>
-        <p class="text-gray-600 text-sm mt-1">
-          <span class="font-semibold">Skills & Technologies:</span> Python (NumPy, Matplotlib, BeautifulSoup, Requests), Flask, Redis, AWS, Docker, Git
-        </p>
-      
         <ul class="list-disc ml-6 text-gray-700 mt-2 space-y-1">
-          <li>Contributed to the <em>Donordo</em> platform by developing web scraping and data enrichment workflows for donor-matching analytics.</li>
-          <li>Performed exploratory data analysis and built Python-based data processing and visualization pipelines.</li>
-          <li>Assisted with cloud deployment and caching optimizations, improving overall application responsiveness.</li>
+          <li>Developed automated data collection and enrichment pipelines for the Donordo analytics platform using Python and web scraping frameworks.</li>
+          <li>Built data processing workflows and visual analytics dashboards to support donor-matching analysis.</li>
+        </ul>
+      </div>
+
+      <h3 class="text-2xl font-semibold mb-6 mt-12">Selected Systems & Software Projects</h3>
+
+      <!-- Mimix Data Transformer -->
+      <div class="mb-8">
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">Mimix Data Transformer</h4>
+        <ul class="list-disc ml-6 text-gray-700 space-y-1">
+          <li>Developed a modular Java library for event stream transformation, mapping, and post-processing across relational and streaming data systems.</li>
+          <li>Designed a pluggable architecture with filters, transformation hooks, and custom database writers; integrated AWS Kinesis and packaged the library as a Maven-compatible artifact.</li>
+          <li>Demonstrated via a short walkthrough video: <a href="https://www.youtube.com/watch?v=LIO30A3-igA" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>.</li>
+        </ul>
+      </div>
+  
+      <!-- Enterprise Email Service -->
+      <div class="mb-8">
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">Enterprise Email Service</h4>
+        <ul class="list-disc ml-6 text-gray-700 space-y-1">
+          <li>Designed and developed an internal email platform used by more than 20 enterprise services, supporting automated, template-based communications.</li>
+          <li>Built RESTful APIs and optimized database schemas for reliable message delivery and integration with legacy systems.</li>
+        </ul>
+      </div>
+  
+      <!-- Compassionate Sri Lanka -->
+      <div class="mb-8">
+        <h4 class="font-semibold text-gray-900 text-lg mb-2">Compassionate Sri Lanka</h4>
+        <ul class="list-disc ml-6 text-gray-700 space-y-1">
+          <li>Contributed to a nationwide donor–recipient platform in collaboration with the Ministry of Social Empowerment.</li>
+          <li>Developed backend services and a Node.js/AngularJS application with SMS and email notifications for donation tracking.</li>
         </ul>
       </div>
 
@@ -225,131 +367,9 @@
   </div>
 </section>
 
-<!-- PUBLICATIONS -->
-<section id="publications" class="py-12">
-  <div class="max-w-4xl mx-auto px-4">
-    <h3 class="text-2xl font-semibold mb-6">Publications</h3>
-    <p class="text-gray-700 leading-relaxed">
-      <span class="font-semibold">E. Silva</span>, M. Nandathilaka, S. Dalugoda, T. Amarasinghe, 
-      S. Ahangama, and G. T. Weerasuriya. 
-      <em>“Machine Learning-Based Automated Tool to Detect Sinhala Hate Speech in Images.”</em> 
-      <span class="italic">Proceedings of the 6th International Conference on Information Technology Research (ICITR 2021)</span>, 
-      IEEE, Dec 2021. 
-      <a href="https://ieeexplore.ieee.org/document/9657453" target="_blank" class="text-blue-600 hover:underline">
-        View on IEEE Xplore
-      </a>
-    </p>
-  </div>
-</section>
-
-  <!-- PROJECTS -->
-<section id="projects" class="bg-white py-12 shadow-sm">
-  <div class="max-w-4xl mx-auto px-4">
-    <h3 class="text-2xl font-semibold mb-6">Projects</h3>
-
-    <!-- A Fast On-Disk Key-Value Store -->
-    <!-- <div class="mb-10">
-      <h4 class="font-semibold text-gray-900 text-lg mb-2">A Fast On-Disk Key-Value Store (Ongoing Research)</h4>
-      <p class="text-gray-700 mb-3">
-        A research-driven project focused on designing a novel on-disk key-value store optimized for modern hardware and data-intensive workloads. 
-        It explores new indexing and storage techniques to achieve faster lookups and updates beyond conventional structures like B+-trees, LSM-trees, and hash-based stores.
-      </p>
-      <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Explores innovative on-disk indexing strategies for high-performance key-value access.</li>
-        <li>Balances throughput, latency, and space efficiency under diverse workloads.</li>
-        <li>Reduces write amplification and improves data locality through hybrid designs.</li>
-        <li>Includes empirical evaluation against state-of-the-art key-value store architectures.</li>
-      </ul>
-      <p class="text-gray-600 text-sm mt-3 italic">
-        This ongoing research contributes to advancing the performance boundaries of storage systems for large-scale data management.
-      </p>
-    </div> -->
-
-    <!-- Group Farness Estimation -->
-    <div class="mb-10">
-      <h4 class="font-semibold text-gray-900 text-lg mb-2">An Experimental Evaluation and Investigation of Group Farness Estimation Techniques</h4>
-      <p class="text-gray-700 mb-3">
-        A comprehensive experimental study of <em>group farness estimation</em> methods in large-scale graphs. 
-        While numerous algorithms exist for single-source farness (closeness) estimation, group-level estimation remains underexplored 
-        despite its significance in applications such as community detection, influence maximization, and network optimization.
-      </p>
-      <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Reviewed and analyzed existing single-source farness estimation algorithms and their applicability to group-level estimation.</li>
-        <li>Extended sampling-based and cardinality estimation (CE) techniques—including KMV and Cohen’s HIP permutation estimator—for scalable group farness estimation.</li>
-        <li>Investigated trade-offs between accuracy, memory overhead, and runtime efficiency across various sampling strategies.</li>
-        <li>Conducted controlled experiments on extended group farness estimation techniques, where <em>Cohen’s HIP-based estimator</em> demonstrated modest yet consistent accuracy (≈2–5%) and scalability gains on large graphs.</li>
-      </ul>
-      <p class="text-gray-600 text-sm mt-3 italic">
-        This work offers quantitative insights into how sampling and cardinality estimation choices influence 
-        the accuracy and scalability of group farness estimation in large graph analytics.
-      </p>
-    </div>
-
-    <!-- Mimix Data Transformer -->
-    <div class="mb-10">
-      <h4 class="font-semibold text-gray-900 text-lg mb-2">Mimix Data Transformer</h4>
-      <p class="text-gray-700 mb-3">
-        A modular Java library designed for efficient and extensible processing of <em>Mimix</em> event streams — enabling transformation, mapping, and post-processing workflows for relational database integration and streaming pipelines such as <em>AWS Kinesis</em>.  
-        The framework supports selective event filtering, JSON-based mapping configurations, and user-defined hooks for custom logic, all packaged as a Maven-compatible artifact for seamless inclusion in enterprise systems.
-      </p>
-      <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Implements fine-grained event filtering and JSON-based mapping for flexible and high-throughput data ingestion.</li>
-        <li>Supports custom transformation logic and post-processing hooks (e.g., logging, notifications, and audit pipelines) for workflow extensibility.</li>
-        <li>Integrates with <em>AWS Kinesis</em> for real-time event streaming and replication of Mimix event data to downstream systems.</li>
-        <li>Provides a pluggable architecture for extending filters, transformers, and database writers.</li>
-        <li>Distributed as a Maven-compatible Java library enabling rapid adoption and integration across data engineering environments.</li>
-        <li>Demonstrated via a short walkthrough video: 
-          <a href="https://www.youtube.com/watch?v=LIO30A3-igA" target="_blank" class="text-blue-600 hover:underline">Watch on YouTube</a>.
-        </li>
-      </ul>
-      <p class="text-gray-600 text-sm mt-3 italic">
-        Ideal for real-time replication of Mimix event streams, integration with streaming systems like AWS Kinesis, and the construction of scalable event-to-table data pipelines for modern data architectures.
-      </p>
-    </div>
-
-    <!-- Dynamic Product Lists Generator -->
-    <!-- <div class="mb-10">
-      <h4 class="font-semibold text-gray-900 text-lg mb-2">
-        Dynamic Product Lists Generator (for Newly Onboarded Sysco Customers)
-      </h4>
-      <p class="text-gray-700 mb-3">
-        Development of a recommendation engine capable of generating and recommending dynamic product lists for newly onboarded Sysco customers. 
-        This solution helps new customers discover products relevant to their business type and cuisine preferences while encouraging existing customers 
-        to explore Sysco’s wider product catalog beyond static order templates.
-      </p>
-      <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Implemented a recommendation model leveraging customer features such as cuisine type, location, and purchasing patterns.</li>
-        <li>Enabled dynamic product list generation for immediate and personalized onboarding experiences.</li>
-        <li>Enhanced customer engagement and product exposure through adaptive, data-driven recommendations.</li>
-      </ul>
-      <p class="text-gray-600 text-sm mt-3 italic">
-        This system improved Sysco’s customer onboarding experience and increased product discoverability through intelligent recommendations.
-      </p>
-    </div> -->
-
-    <!-- Compassionate Sri Lanka -->
-    <div class="mb-10">
-      <h4 class="font-semibold text-gray-900 text-lg mb-2">Compassionate Sri Lanka</h4>
-      <p class="text-gray-700 mb-3">
-        A CSR initiative at Sysco LABS in collaboration with the Ministry of Social Empowerment to build a responsive web application that connects 
-        donors with individuals in need, enabling transparent and efficient social support delivery.
-      </p>
-      <ul class="list-disc ml-6 text-gray-700 space-y-1">
-        <li>Developed a responsive front-end web application for user-friendly donor and recipient interaction.</li>
-        <li>Implemented RESTful APIs to manage donor requests, fulfillment tracking, and user data.</li>
-        <li>Integrated SMS and email notification systems for real-time communication and request updates.</li>
-        <li>Contributed to improving accessibility and scalability of the platform for national CSR use.</li>
-      </ul>
-      <p class="text-gray-600 text-sm mt-3 italic">
-        This project demonstrates the use of technology for social good, bridging the gap between donors and those in need through digital empowerment.
-      </p>
-    </div>
-    
-</section>
-
   <!-- FOOTER -->
   <footer class="bg-[#0a0a0a] text-gray-300 text-center py-4 mt-0 border-t border-gray-800">
-    <p>© 2025 Evangeli Silva. Built with ❤️ and hosted on GitHub Pages.</p>
+    <p>© 2026 Evangeli Silva. Built with ❤️ and hosted on GitHub Pages.</p>
   </footer>
 
 </body>
